@@ -19,7 +19,7 @@ This will allow me to create a map of the road network of the Roman Empire.
 Basic plot of this shape file. This is a plot of the road network of the Roman Empire.
 
 > par(mar=c(0,0,0,0))
-> plot(my_spdf, col="#f2f2f2", bg="black", lwd=0.25, border=0 )
+> output:plot(my_spdf, col="#f2f2f2", bg="black", lwd=0.25, border=0 )
 
 Now I need to install and load the following packages in order to plot on a map of Europe the 
 coordinates of the roman cities I found in the Hanson dataset. 
